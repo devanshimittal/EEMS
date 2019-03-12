@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteRule ^elements-([a-zA-Z0-9_-]+)$ elements.php?id=$1
+RewriteRule ^dashboard-([a-zA-Z0-9_-]+)$ dashboard.php?id=$1
+RewriteRule ^recent-([a-zA-Z0-9_-]+)$ recent.php?id=$1
+RewriteRule ^request-([a-zA-Z0-9_-]+)$ request.php?id=$1
+RewriteRule ^upload-([a-zA-Z0-9_-]+)$ upload.php?id=$1
+RewriteRule ^settings-([a-zA-Z0-9_-]+)$ settings.php?id=$1
+RewriteRule ^more-([a-zA-Z0-9_-]+)$ more.php?id=$1
+RewriteRule ^changep-([a-zA-Z0-9_-]+)$ changep.php?id=$1
