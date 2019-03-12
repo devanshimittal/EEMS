@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^bills-([a-zA-Z0-9_-]+)$ bills.php?id=$1
+RewriteRule ^dashboard-([a-zA-Z0-9_-]+)$ dashboard.php?id=$1
+RewriteRule ^settings-([a-zA-Z0-9_-]+)$ settings.php?id=$1
+RewriteRule ^changep-([a-zA-Z0-9_-]+)$ changep.php?id=$1
+RewriteRule ^reimbursement-([a-zA-Z0-9_-]+)$ reimbursement.php?id=$1
+RewriteRule ^pending-([a-zA-Z0-9_-]+)$ pending.php?id=$1
+RewriteRule ^detail-([a-zA-Z0-9_-]+)$ detail.php?id=$1
